@@ -13,6 +13,6 @@ while True:
     else:
         print("You loose!")
     play_again = input("\nPlay again? (y/n): ").lower()
-    if play_again != "да":
+    if play_again != "y":
         print("Thanks for game! Goodbye!")
         break 
